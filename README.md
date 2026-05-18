@@ -47,8 +47,8 @@ composer require hszope/laravel-aigeo
 Publish the config, migrations, and assets:
 
 ```bash
-php artisan vendor:publish --tag="laravel-aigeo-config"
-php artisan vendor:publish --tag="laravel-aigeo-migrations"
+php artisan vendor:publish --tag="aigeo-config"
+php artisan vendor:publish --tag="aigeo-migrations"
 php artisan migrate
 ```
 
